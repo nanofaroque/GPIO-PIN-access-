@@ -17,11 +17,13 @@ adb shell
 
 ```
 Now you will see that you are in device shell terminal and look like this: <br />
-shell@msm8916_64:/ $ 
+shell@msm8916_64:/ $ <br />
+$ means a shell that's compatible with the Bourne shell (such as POSIX, Korn or Bash shell). <br />
 5. Now we need super user access, to get that type below command to become super user: <br />
 ```
 su
 ```
+After 'su' command, you will see that $ has been changed to # sign. # means that shell is running as systems user acount (root) and you should be careful <br />
 6. Enter to the sys directory :<br />
 ```
 cd sys
